@@ -1,6 +1,5 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
 }
 
 form {
@@ -35,4 +34,14 @@ button {
     background-color: red;
     width: auto;
     padding: 10px 18px; 
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
 }
