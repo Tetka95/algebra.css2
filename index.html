@@ -1,1 +1,37 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Forma</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <h2>Login Forma</h2>
+    <form action="" method="post">
+        <div class="img">
+            <img src="./media/slika1.png" class="avatar" width="500" height="500" alt="slika profila">
+        </div>
+        <div class="form">
+            <label for="korisnicko_ime"><b>Korisničko ime</b></label>
+            <br>
+            <input type="text" placeholder="Unesite korisničko ime" name="korisnicko_ime" required>
+            <br>
+            <label for="lozinka"><b>Lozinka</b></label>
+            <br>
+            <input type="password" placeholder="Unesite lozinku" name="lozinka" required>
+        </div>
+        <div>
+            <button type="submit">Login</button>
+            <label>
+                <input type="checkbox" checked name="zapamti">
+                Zapamti me
+            </label>
+        </div>
+        <div>
+            <button class="odustani" type="button">Odustani</button>
+            <span>Zaboravljena <a href="#">lozinka?</a></span>
+        </div>
+    </form>
+</body>
+</html>
